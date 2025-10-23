@@ -509,3 +509,51 @@ footer {
         padding-left: 1.5rem;
     }
 }
+
+/* Make sure sections are positioned relative for overlays */
+section {
+    position: relative;
+}
+
+/* Technical Skills Section */
+#skills {
+    background-image: url('images/1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* text color for contrast */
+}
+
+/* Featured Projects Section */
+#projects {
+    background-image: url('images/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Let's Connect Section */
+#contact {
+    background-image: url('images/3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Optional: Add a semi-transparent overlay for better readability */
+section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5); /* adjust opacity as needed */
+    z-index: 0;
+}
+
+/* Make sure section content is above overlay */
+section > .container {
+    position: relative;
+    z-index: 1;
+}
+
