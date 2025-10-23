@@ -69,13 +69,15 @@ header {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: var(--text-secondary);
+    color: var(--text-primary); /* changed to white */
+    font-weight: 700;           /* bold */
     margin-bottom: 2rem;
 }
 
 .hero-description {
     font-size: 1.1rem;
-    color: var(--text-secondary);
+    color: var(--text-primary); /* changed to white */
+    font-weight: 700;           /* bold */
     max-width: 700px;
     margin: 0 auto 2rem;
 }
