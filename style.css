@@ -162,7 +162,7 @@ header {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.4), rgba(34, 211, 238, 0.3));
+    background: linear-gradient(135deg, rgba(15, 15, 30, 0.6), rgba(15, 15, 30, 0.7));
 }
 
 .hero-content {
