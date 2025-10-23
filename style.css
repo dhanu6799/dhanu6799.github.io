@@ -542,15 +542,6 @@ section {
     color: white;
 }
 
-/* Optional: Add a semi-transparent overlay for better readability */
-/* section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.5); /* adjust opacity as needed */
-    z-index: 0;
-}
-*/
 
 /* Make sure section content is above overlay */
 section > .container {
