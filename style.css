@@ -82,7 +82,9 @@ header {
     margin: 0 auto 2rem;
 }
 
-
+.hero-subtitle, .hero-description {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
 .cta-buttons {
     display: flex;
     gap: 1rem;
