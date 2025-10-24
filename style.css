@@ -162,7 +162,7 @@ header {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.4), rgba(34, 211, 238, 0.3));
+    background: linear-gradient(135deg, rgba(15, 15, 30, 0.6), rgba(15, 15, 30, 0.7));
 }
 
 .hero-content {
@@ -509,6 +509,68 @@ footer {
         padding-left: 1.5rem;
     }
 }
+
+/* Education Section */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.edu-card {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+}
+
+.edu-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.edu-degree {
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.edu-school {
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.edu-date {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* Optional: Background for Education Section */
+#education {
+    background-image: url('images/edu-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#education .edu-card {
+    background: rgba(30, 41, 59, 0.85); /* makes text readable over bg */
+}
+
 
 /* Make sure sections are positioned relative for overlays */
 section {
