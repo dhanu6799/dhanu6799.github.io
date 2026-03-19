@@ -57,6 +57,7 @@ header {
   z-index: 1;
   pointer-events: none;
 }
+
 .hero-content {
     position: relative;
     z-index: 2;
@@ -171,14 +172,6 @@ header {
     inset: 0;
     background: linear-gradient(135deg, rgba(15, 15, 30, 0.6), rgba(15, 15, 30, 0.7));
 }
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    animation: fadeInUp 1s ease-out;
-}
-
 
 /* Section Styles */
 section {
